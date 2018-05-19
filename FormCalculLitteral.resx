@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelQuestion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 81</value>
+  </data>
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 29</value>
+  </data>
+  <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelQuestion.Text" xml:space="preserve">
+    <value>Ecris le nombre suivant en chiffres :</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.Name" xml:space="preserve">
+    <value>labelQuestion</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
+  </data>
+  <data name="textBoxL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 115</value>
+  </data>
+  <data name="textBoxL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>790, 44</value>
+  </data>
+  <data name="textBoxL.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="textBoxL.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxL.Name" xml:space="preserve">
+    <value>textBoxL</value>
+  </data>
+  <data name="&gt;&gt;textBoxL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxL.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="buttonCheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 174</value>
+  </data>
+  <data name="buttonCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 116</value>
+  </data>
+  <data name="buttonCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;buttonCheck.Name" xml:space="preserve">
+    <value>buttonCheck</value>
+  </data>
+  <data name="&gt;&gt;buttonCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCheck.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="radioButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 8</value>
+  </data>
+  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>0-100</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="radioButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 31</value>
+  </data>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>0-1000</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
+    <value>radioButton2</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="radioButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radioButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 54</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>0-10000</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
+    <value>radioButton3</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelTitre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 27.75pt</value>
+  </data>
+  <data name="labelTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="labelTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 45</value>
+  </data>
+  <data name="labelTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelTitre.Text" xml:space="preserve">
+    <value>J'apprends l'écriture des nombres</value>
+  </data>
+  <data name="&gt;&gt;labelTitre.Name" xml:space="preserve">
+    <value>labelTitre</value>
+  </data>
+  <data name="&gt;&gt;labelTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTitre.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ucResult.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ucResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 296</value>
+  </data>
+  <data name="ucResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 247</value>
+  </data>
+  <data name="ucResult.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;ucResult.Name" xml:space="preserve">
+    <value>ucResult</value>
+  </data>
+  <data name="&gt;&gt;ucResult.Type" xml:space="preserve">
+    <value>CalculsCE1.UserControlResult, CalculsCE1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucResult.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBoxZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 72pt, style=Bold</value>
+  </data>
+  <data name="textBoxZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 174</value>
+  </data>
+  <data name="textBoxZ.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="textBoxZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 116</value>
+  </data>
+  <data name="textBoxZ.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="textBoxZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxZ.Name" xml:space="preserve">
+    <value>textBoxZ</value>
+  </data>
+  <data name="&gt;&gt;textBoxZ.Type" xml:space="preserve">
+    <value>CalculsCE1.NumericBox, CalculsCE1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;textBoxZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxZ.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="checkBox1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="checkBox1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="checkBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 77</value>
+  </data>
+  <data name="checkBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 28</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>lire</value>
+  </data>
+  <data name="checkBox1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="checkBox1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="checkBox2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="checkBox2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="checkBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 77</value>
+  </data>
+  <data name="checkBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 28</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>écrire</value>
+  </data>
+  <data name="checkBox2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="checkBox2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 174</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABg
+        FAAAAk1TRnQBSQFMAgEBAwEAATQBAAE0AQABIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABgAMAASADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wgAEv8OABL/DgAS/y4A
+        Af8B9A7yAfQB/w4AAf8B9A7yAfQB/w4AAf8B9A7yAfQB/y4AAf8B7Q7qAe0B/w4AAf8B7Q7qAe0B/w4A
+        Af8B7Q7qAe0B/y4AAf8B6gGSA+0B7wG8AvABvAHvA+0BkgHqAf8OAAH/AeoBkgPtAe8BvALwAbwB7wPt
+        AZIB6gH/DgAB/wHqAZID7QHvAbwC8AG8Ae8D7QGSAeoB/y4AAf8B6gGSAu0B7wEcAVACTwFQARwB7wLt
+        AZIB6gH/DgAB/wHqAZIC7QLvAe0C7AHtAu8C7QGSAeoB/w4AAf8B6gGSAu0C7wHtAuwB7QLvAu0BkgHq
+        Af8uAAH/AeoBkgLtAewGUAHsAu0BkgHqAf8OAAH/AeoBkgHsAu0G7ALtAewBkgHqAf8OAAH/AeoBkgHs
+        Au0G7ALtAewBkgHqAf8uAAH/AeoBkgLsCFAC7AGSAeoB/w4AAf8B6gGSDOwBkgHqAf8OAAH/AeoBkgzs
+        AZIB6gH/LQAB/wH0AeoBkgHsAW0IVgFtAewBkgHqAfQB/wwAAf8B9AHqAZIB7AFtCOsBbQHsAZIB6gH0
+        Af8MAAH/AfQB6gGSAewBbQjrAW0B7AGSAeoB9AH/KwAC/wHzAeoBkgHsARMIVgETAewBkgHqAfMC/woA
+        Av8B8wHqAZIB7AETAesGbQHrARMB7AGSAeoB8wL/CgAC/wHzAeoBkgHsARMB6wZtAesBEwHsAZIB6gHz
+        Av8pAAL/AfMB7AHqAZIB7AEUAVYGVwFWARQB7AGSAeoB7AHzAv8IAAL/AfMB7AHqAZIB7AEUCG0BFAHs
+        AZIB6gHsAfMC/wgAAv8B8wHsAeoBkgHsARQIbQEUAewBkgHqAewB8wL/KAAB/wH0Ae0B6gESAZIB7AHq
+        ARIGVwESAeoB7AGSARIB6gHtAfQB/wgAAf8B9AHtAeoBEgGSAewBbQETBuoBEwFtAewBkgESAeoB7QH0
+        Af8IAAH/AfQB7QHqARIBkgHsAW0BEwbqARMBbQHsAZIBEgHqAe0B9AH/KAAB/wHvAuwBEgGSAuwBFAES
+        BFcBEgEUAuwBkgESAuwB7wH/CAAB/wHvAuwBEgGSAuwBEwEUBBIBFAETAuwBkgESAuwB7wH/CAAB/wHv
+        AuwBEgGSAuwBEwEUBBIBFAETAuwBkgESAuwB7wH/KAAB/wISAeoBEgGSA+wB6gQVAeoD7AGSARIB6gIS
+        Af8IAAH/AhIB6gESAZID7AHqBBUB6gPsAZIBEgHqAhIB/wgAAf8CEgHqARIBkgPsAeoBFAIVARQB6gPs
+        AZIBEgHqAhIB/ysAAf8BEgGSAusB7AH3AZIC7QGSAfcB7ALrAZIBEgH/DgAB/wESAZIC6wHsARwEUwEc
+        AewC6wGSARIB/w4AAf8BEgGSAusB7AH3AZIC7QGSAfcB7ALrAZIBEgH/LgAB/wESAZIB6wHsAfcG7AH3
+        AewB6wGSARIB/w4AAf8BEgGSAesB7AEcBlMBHAHsAesBkgESAf8OAAH/ARIBkgHrAewB9wbsAfcB7AHr
+        AZIBEgH/LgAB/wESAfcB6wrsAesB9wESAf8OAAH/ARIB9wHrAewIUwHsAesB9wESAf8OAAH/ARIB9wHr
+        CuwB6wH3ARIB/y0AAf8B9AESAfcB6wFtCOsBbQHrAfcBEgH0Af8MAAH/AfQBEgH3AesBbQhZAW0B6wH3
+        ARIB9AH/DAAB/wH0ARIB9wHrAW0I6wFtAesB9wESAfQB/ysAAv8B8wESAfcB6wETAesGbQHrARMB6wH3
+        ARIB8wL/CgAC/wHzARIB9wHrARQIWQEUAesB9wESAfMC/woAAv8B8wESAfcB6wETAesGbQHrARMB6wH3
+        ARIB8wL/KQAC/wHzAewBEgH3AesBFQhtARUB6wH3ARIB7AHzAv8IAAL/AfMB7AESAfcB6wFDCFkBQwHr
+        AfcBEgHsAfMC/wgAAv8B8wHsARIB9wHrARUIbQEVAesB9wESAewB8wL/KAAB/wH0Ae0B6gESAfcBbQES
+        ARQG6gEUARIBbQH3ARIB6gHtAfQB/wgAAf8B9AHtAeoBEgH3AW0BEwFKBlkBSgETAW0B9wESAeoB7QH0
+        Af8IAAH/AfQB7QHqARIB9wFtARIBFAbqARQBEgFtAfcBEgHqAe0B9AH/KAAB/wHvAuwBEgH3Am0CFAQS
+        AhQCbQH3ARIC7AHvAf8IAAH/Ae8C7AESAfcCbQEVAUoEWQFKARUCbQH3ARIC7AHvAf8IAAH/Ae8C7AES
+        AfcCbQIUBBICFAJtAfcBEgLsAe8B/ygAAf8BEgLqARIB9wNtARMEQwETA20B9wESAuoBEgH/CAAB/wES
+        AuoBEgH3A20BEwQRARMDbQH3ARIC6gESAf8IAAH/ARIC6gESAfcDbQETARUCQwEVARMDbQH3ARIC6gES
+        Af8rAAH/ARIB9wHqAW0B6wHtAZIC7QGSAe0B6wFtAeoB9wESAf8OAAH/ARIB9wHqAW0B6wHtAfcC7QH3
+        Ae0B6wFtAeoB9wESAf8OAAH/ARIB9wLqAesBbwFHAvkBRwFvAesC6gH3ARIB/y0AAf8B9AESAe8B6gHr
+        AZIG7AGSAesB6gHvARIB9AH/DAAB/wH0ARIB7wHqAesBkgbsAZIB6wHqAe8BEgH0Af8MAAH/AfQBEgHv
+        AeoB6wFvAvkCRwL5AW8B6wHqAe8BEgH0Af8rAAL/AfMBEgHvAeoK7AHqAe8BEgHzAv8KAAL/AfMBEgHv
+        AeoK7AHqAe8BEgHzAv8KAAL/AfMBEgHvARIB7AhHAewBEgHvARIB8wL/KQAC/wHzAewBEwHvARIBbQjr
+        AW0BEgHvARMB7AHzAv8IAAL/AfMB7AETAe8BEgFtCOsBbQESAe8BEwHsAfMC/wgAAv8B8wHsARMB7wES
+        AW0IRwFtARIB7wETAewB8wL/JwAC/wHzAewCEwHvARIBFALrBG0C6wEUARIB7wITAewB8wL/BgAC/wHz
+        AewCEwHvARIBFALrBG0C6wEUARIB7wITAewB8wL/BgAC/wHzAewCEwHvARIBFAhHARQBEgHvAhMB7AHz
+        Av8mAAH/AfQB7QISARMB7wESAUMIbQFDARIB7wETAhIB7QH0Af8GAAH/AfQB7QISARMB7wESAUMIbQFD
+        ARIB7wETAhIB7QH0Af8GAAH/AfQB7QISARMB7wESAUMIRwFDARIB7wETAhIB7QH0Af8mAAH/AfcD6wET
+        Ae8BEgEUARUG6gEVARQBEgHvARMD6wH3Af8GAAH/AfcD6wETAe8BEgEUARUG6gEVARQBEgHvARMD6wH3
+        Af8GAAH/AfcD6wETAe8BEgEUAUQGFwFEARQBEgHvARMD6wH3Af8mAAH/ARID7QETAe8CEwFDARUEEgEV
+        AUMBEgETAe8BEwPtARIB/wYAAf8BEgPtARMB7wITAUMBFQQSARUBQwESARMB7wETA+0BEgH/BgAB/wES
+        A+0BEwHvARMBEgFDAUQBRwIXAUcBRAFDARIBEwHvARMD7QESAf8mAAH/AuoBEgHqARMBBwLtAZIB6wEU
+        AhEBFAHrAZIC7QEHARMB6gESAuoB/wYAAf8C6gESAeoBEwEHAu0BkgHrARQCEQEUAesBkgLtAQcBEwHq
+        ARIC6gH/BgAB/wLqARIB6gETAQcC7QGSAesBFAIRARQB6wGSAu0BBwETAeoBEgLqAf8qAAH/AfcEEwYS
+        BBMB9wH/DgAB/wH3BBMGEgQTAfcB/w4AAf8B9wQTBhIEEwH3Af8nAAFCAU0BPgcAAT4DAAEoAwABgAMA
+        ASADAAEBAQABAQYAAQIWAAP/AQAB/gIAAX8B/gIAAX8B/gIAAX8EAAH+AgABfwH+AgABfwH+AgABfwQA
+        Af4CAAF/Af4CAAF/Af4CAAF/BAAB/gIAAX8B/gIAAX8B/gIAAX8EAAH+AgABfwH+AgABfwH+AgABfwQA
+        Af4CAAF/Af4CAAF/Af4CAAF/BAAB/gIAAX8B/gIAAX8B/gIAAX8EAAH8AgABPwH8AgABPwH8AgABPwQA
+        AfgCAAEfAfgCAAEfAfgCAAEfBAAB8AIAAQ8B8AIAAQ8B8AIAAQ8EAAHwAgABDwHwAgABDwHwAgABDwQA
+        AfACAAEPAfACAAEPAfACAAEPBAAB8AIAAQ8B8AIAAQ8B8AIAAQ8EAAH+AgABfwH+AgABfwH+AgABfwQA
+        Af4CAAF/Af4CAAF/Af4CAAF/BAAB/gIAAX8B/gIAAX8B/gIAAX8EAAH8AgABPwH8AgABPwH8AgABPwQA
+        AfgCAAEfAfgCAAEfAfgCAAEfBAAB8AIAAQ8B8AIAAQ8B8AIAAQ8EAAHwAgABDwHwAgABDwHwAgABDwQA
+        AfACAAEPAfACAAEPAfACAAEPBAAB8AIAAQ8B8AIAAQ8B8AIAAQ8EAAH+AgABfwH+AgABfwH+AgABfwQA
+        AfwCAAE/AfwCAAE/AfwCAAE/BAAB+AIAAR8B+AIAAR8B+AIAAR8EAAHwAgABDwHwAgABDwHwAgABDwQA
+        AeACAAEHAeACAAEHAeACAAEHBAAB4AIAAQcB4AIAAQcB4AIAAQcEAAHgAgABBwHgAgABBwHgAgABBwQA
+        AeACAAEHAeACAAEHAeACAAEHBAAB4AIAAQcB4AIAAQcB4AIAAQcEAAH+AgABfwH+AgABfwH+AgABfwQA
+        Cw==
+</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 221</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 69</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>La saisie ne tient pas compte des traits d'union normalement présents en français. En 1990, une recommandation propose sans imposer de mettre systématiquement un trait d'union entre chaque mot du nombre.</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>810, 543</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>L'écriture des nombres</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormCalculLitteral</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

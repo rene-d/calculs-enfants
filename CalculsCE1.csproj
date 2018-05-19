@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F7F15A2-F82D-44BC-9029-E5C9F762D9F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CalculsCE1</RootNamespace>
+    <AssemblyName>CalculsCE1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://serveur.home/enfants/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://serveur.home/enfants/</InstallUrl>
+    <ProductName>Calculs CE1</ProductName>
+    <PublisherName>René DEVICHI</PublisherName>
+    <SuiteName>Programmes Educatifs</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>110</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>calculator.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DD6FEBD0E1B4712D362499BB79AB81AAA5A37CF3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CalculsCE1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algos.cs" />
+    <Compile Include="FormCalculRomains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculRomains.Designer.cs">
+      <DependentUpon>FormCalculRomains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculProblemes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculProblemes.Designer.cs">
+      <DependentUpon>FormCalculProblemes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Litteral.cs" />
+    <Compile Include="FormCalculLitteral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculLitteral.Designer.cs">
+      <DependentUpon>FormCalculLitteral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdate.Designer.cs">
+      <DependentUpon>FormUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculAlgo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculAlgo.Designer.cs">
+      <DependentUpon>FormCalculAlgo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculOrdre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculOrdre.Designer.cs">
+      <DependentUpon>FormCalculOrdre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomanNumber.cs" />
+    <Compile Include="UserControlResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlResult.Designer.cs">
+      <DependentUpon>UserControlResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlCalcul.cs" />
+    <Compile Include="Enfants.cs" />
+    <Compile Include="FormBravo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBravo.Designer.cs">
+      <DependentUpon>FormBravo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDownload.Designer.cs">
+      <DependentUpon>FormDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnfants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnfants.Designer.cs">
+      <DependentUpon>FormEnfants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormErreur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormErreur.Designer.cs">
+      <DependentUpon>FormErreur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs" />
+    <Compile Include="NumericBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Historique.cs" />
+    <Compile Include="Enfant.cs" />
+    <Compile Include="FormHistorique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistorique.Designer.cs">
+      <DependentUpon>FormHistorique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculs.Designer.cs">
+      <DependentUpon>FormCalculs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlAlgo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlAlgo.Designer.cs">
+      <DependentUpon>UserControlAlgo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlOrdre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlOrdre.Designer.cs">
+      <DependentUpon>UserControlOrdre.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormCalculRomains.resx">
+      <DependentUpon>FormCalculRomains.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculProblemes.resx">
+      <DependentUpon>FormCalculProblemes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculLitteral.af.resx">
+      <DependentUpon>FormCalculLitteral.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculLitteral.resx">
+      <DependentUpon>FormCalculLitteral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdate.resx">
+      <DependentUpon>FormUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBravo.resx">
+      <DependentUpon>FormBravo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculAlgo.resx">
+      <DependentUpon>FormCalculAlgo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculOrdre.resx">
+      <DependentUpon>FormCalculOrdre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDownload.resx">
+      <DependentUpon>FormDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnfants.resx">
+      <DependentUpon>FormEnfants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormErreur.resx">
+      <DependentUpon>FormErreur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistorique.resx">
+      <DependentUpon>FormHistorique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculs.resx">
+      <DependentUpon>FormCalculs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControlResult.resx">
+      <DependentUpon>UserControlResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAlgo.resx">
+      <DependentUpon>UserControlAlgo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlOrdre.resx">
+      <DependentUpon>UserControlOrdre.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="CalculsCE1_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\112_Tick_Green_64x64_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edu-des-mathematiques-icone-4069-64.png" />
+    <None Include="Resources\fermer-croix-supprimer-erreurs-sortie-icone-4368-64.png" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\305_Close_48x48_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="calculator.ico" />
+    <Content Include="LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\system-browse.png" />
+    <None Include="Resources\users.ico" />
+    <None Include="Resources\Math6.png" />
+    <None Include="Resources\1324465724_file_extension_log.png" />
+    <None Include="Resources\1324465639_gtk-refresh.png" />
+    <None Include="Resources\1324134139_previous.png" />
+    <None Include="Resources\1324114457_eraser.png" />
+    <None Include="Resources\112_Tick_Green_32x32_72.png" />
+    <None Include="Resources\feu-d-artifice-t20569.jpg" />
+    <None Include="Resources\eve.png" />
+    <None Include="Resources\wall-e.png" />
+    <None Include="Resources\1322649780_bookmark.png" />
+    <None Include="Resources\1322058417_dialog-question.png" />
+    <None Include="Resources\base_plus_sign_32.png" />
+    <None Include="Resources\1321782033_Add.png" />
+    <None Include="Resources\accessoires-calculatrice-icone-7489-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="photos\CalculsCE1.Photos.csproj">
+      <Project>{34AD436C-4418-4143-9690-EC6483B10F4D}</Project>
+      <Name>CalculsCE1.Photos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CalculsCE1.Photos">
+      <Visible>False</Visible>
+      <Group>Famille</Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
